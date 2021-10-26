@@ -10,7 +10,10 @@ Information:
 Access or Permission You Provide:
   1. Permission to Monitor Call Status. You provide us the access to monitor incoming calls.
   2. Permission to Read Your Contact Information. You provide access to your contact list
-  3. Permission to 
+  3. Permission to Send SMS: You provide us the access to send message and your specified message to the missed caller number.
+  
+  
+Note: No information is save share or save both internally or externally, apart from the message to send which is save on your phone(internally only).
   
 
 Contact US
