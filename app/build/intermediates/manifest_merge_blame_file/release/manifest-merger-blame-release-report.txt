@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.codein.asawacallmanager"
+4    android:versionCode="3"
+5    android:versionName="3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:4:5-75
+11-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:4:22-72
+12    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+12-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:5:5-77
+12-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.SEND_SMS" />
+13-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:6:5-66
+13-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+14-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:7:5-71
+14-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:7:22-69
+15
+16    <application
+16-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:8:5-31:19
+17        android:allowBackup="true"
+17-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:9:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] /Users/Repent/.gradle/caches/transforms-2/files-2.1/ba1d9cdeace3374a3d1f11cb4c3f7039/core-1.6.0/AndroidManifest.xml:24:18-86
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher_new"
+20-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:10:9-47
+21        android:label="@string/app_name"
+21-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:11:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:12:9-54
+23        android:supportsRtl="true"
+23-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:13:9-35
+24        android:theme="@style/Theme.AsawaCallManager" >
+24-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:14:9-54
+25        <activity android:name="com.codein.asawacallmanager.MainActivity" >
+25-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:15:9-21:20
+25-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:15:19-47
+26            <intent-filter>
+26-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:16:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:17:17-69
+27-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:19:17-77
+29-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <receiver
+33-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:23:9-30:20
+34            android:name="com.codein.asawacallmanager.model.CallReceiver"
+34-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:23:19-53
+35            android:enabled="true"
+35-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:24:13-35
+36            android:exported="true" >
+36-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:25:13-36
+37            <intent-filter>
+37-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:27:13-29:29
+38                <action android:name="android.intent.action.PHONE_STATE" />
+38-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:28:17-75
+38-->/Users/Repent/AsawaCallManager/app/src/main/AndroidManifest.xml:28:25-73
+39            </intent-filter>
+40        </receiver>
+41    </application>
+42
+43</manifest>
